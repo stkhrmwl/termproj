@@ -1,0 +1,8 @@
+MariaDB [sample]> DESCRIBE temp_dumps;
++---------------+----------+------+-----+---------+-------+
+| Field         | Type     | Null | Key | Default | Extra |
++---------------+----------+------+-----+---------+-------+
+| subscribed_at | double   | NO   | PRI | NULL    |       |
+| topic         | char(30) | NO   |     | NULL    |       |
+| value         | float    | NO   |     | NULL    |       |
++---------------+----------+------+-----+---------+-------+
