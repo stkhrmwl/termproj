@@ -29,7 +29,7 @@ int RED_LED_PORT = 17;
 int BLUE_LED_PORT = 16;
 
 unsigned long lastConnectionTime = 0;
-const unsigned long postingInterval = 0.5L * 1000L;
+const unsigned long postingInterval = 0.05L * 1000L;
 
 // prototype declaration
 void reconnectWifi();
